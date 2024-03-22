@@ -65,6 +65,14 @@ export const parseLine = <T>(line: string): TLineDigest => {
 export const parseLines = (input: string): TLineDigest[] =>
   input.split(EOL).map(parseLine)
 
+export const getBorders = (lines: TLineDigest[]): number[] =>
+  lines[0].spaces.reduce<number[]>((m, i) => {
+    if (lines.every(l => l.spaces.includes(i))) {
+      m.push(i)
+    }
+    return m
+  }, [])
+
 export const parseUnixGrid = (input: string): TIngridResponse | undefined => {}
 
 export const parseWinGrid = (input: string): TIngridResponse | undefined => {}

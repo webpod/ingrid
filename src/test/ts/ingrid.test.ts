@@ -2,7 +2,12 @@ import * as assert from 'node:assert'
 import { describe, it } from 'node:test'
 import * as path from 'node:path'
 import * as fs from 'node:fs/promises'
-import { parseUnixGrid, parseLine, parseLines } from '../../main/ts/ingrid.ts'
+import {
+  parseUnixGrid,
+  parseLine,
+  parseLines,
+  getBorders
+} from '../../main/ts/ingrid.ts'
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
 const fixtures = path.resolve(__dirname, '../fixtures')
@@ -40,8 +45,8 @@ describe('parseLine()', () => {
       {
         spaces: [3, 7],
         words: [
-          {s: 2, e: 5, w: "foo"},
-          {s: 6, e: 9, w: "bar"},
+          {s: 2, e: 5, w: 'foo'},
+          {s: 6, e: 9, w: 'bar'},
           {s: 8, e: 17, w: '"baz qux"'}
         ]
       },
@@ -58,5 +63,18 @@ describe('parseLine()', () => {
         words: []
       }
     ])
+  })
+})
+
+describe('getBorders()', () => {
+  it('detects space-formatted grid', () => {
+const output = `
+aaa bbb  ccc
+aa  bb   cc
+a   b    c
+`.trim()
+    const lines = parseLines(output)
+    const result = getBorders(lines)
+    assert.deepEqual(result, [3, 7, 8])
   })
 })
