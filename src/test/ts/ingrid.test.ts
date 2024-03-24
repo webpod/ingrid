@@ -6,6 +6,7 @@ import {
   parseLine,
   parseLines,
   getBorders,
+  parse,
   parseUnixGrid,
   parseWinGrid
 } from '../../main/ts/ingrid.ts'
@@ -14,7 +15,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname)
 const fixtures = path.resolve(__dirname, '../fixtures')
 
 describe('parseLine()', () => {
-  it.skip('extracts words ans spaces respecting quotes', () => {
+  it('extracts words ans spaces respecting quotes', () => {
     const line = `foo bar "baz qux"   'a b "c"'`
     const result = parseLine(line)
     assert.deepEqual(result, {
@@ -28,7 +29,7 @@ describe('parseLine()', () => {
     })
   })
 
-  it.skip('multiline', () => {
+  it('multiline', () => {
     const lines = `foo bar "baz qux"
 'a b "c"' d   e
 `
@@ -59,7 +60,7 @@ describe('parseLine()', () => {
 })
 
 describe('getBorders()', () => {
-  it.skip('detects space-formatted grid', () => {
+  it('detects space-formatted grid', () => {
 const output = `
 aaa bbb  ccc
 aa  bb   cc
@@ -71,8 +72,48 @@ a   b    c
   })
 })
 
+describe('parse()', () => {
+  it('readme example #1', () => {
+    const output = `
+foo bar baz
+1 2 3
+`
+    const result = parse(output.trim())
+    assert.deepEqual(result, [
+      {foo: ['1'], bar: ['2'], baz: ['3']}
+    ])
+  })
+
+  it('throws on unknown format', () => {
+    assert.throws(() => parse('', {format: 'foo' as any}))
+  })
+
+  it('readme example #2', () => {
+    const table = `
+foo  bar  baz
+1
+  2  3
+
+a
+  b  c
+
+  d  e
+`
+    const result = parse(table.trim(), {format: 'win'})
+    assert.deepEqual(result, [
+      { foo: ['1'], bar: ['2'], baz: ['3'] },
+      { foo: ['a'], bar: ['b'], baz: ['c'] },
+      { foo: ['a'], bar: ['d'], baz: ['e'] }
+    ])
+  })
+
+  it('throws on unknown format', () => {
+    assert.throws(() => parse('', {format: 'foo' as any}))
+  })
+})
+
 describe('parseUnixGrid()', () => {
-  it.skip('parses ps output', async () => {
+  it('parses ps output', async () => {
     const output = await fs.readFile(path.resolve(fixtures, 'ps-unix-output.txt'), 'utf8')
     const result = parseUnixGrid(output)
 
@@ -114,8 +155,10 @@ describe('parseUnixGrid()', () => {
   it('parses ps shifted heades', async () => {
     const output = await fs.readFile(path.resolve(fixtures, 'ps-unix-shifted-headers.txt'), 'utf8')
     const result = parseUnixGrid(output)
+    const same = parse(output, {format: 'unix'})
 
     assert.equal(result.length, 3)
+    assert.deepEqual(result, same)
     assert.deepEqual(result[0], {
         COMMAND: ['/usr/sbin/cfprefsd', 'agent'],
         CPU: ['0'],
@@ -139,8 +182,10 @@ describe('parseWinGrid()', () => {
   it('parses wmic output', async () => {
     const output = await fs.readFile(path.resolve(fixtures, 'wmic-output.txt'), 'utf8')
     const result = parseWinGrid(output)
+    const same = parse(output, {format: 'win'})
 
     assert.equal(result.length, 221)
+    assert.deepEqual(result, same)
     assert.deepEqual(result[150], {
       CommandLine: [
         '"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_5fb296660a9719a9\\RtkAudUService64.exe"',

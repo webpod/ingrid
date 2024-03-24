@@ -1,5 +1,3 @@
-import process from 'node:process'
-
 export type TIngridResponse = Record<string, string[]>[]
 
 export type TIngridParseOpts = Partial<{
@@ -8,7 +6,6 @@ export type TIngridParseOpts = Partial<{
 
 export type TIngridParse = (input: string) => TIngridResponse
 
-const ISWIN = process.platform === 'win32'
 const EOL = /\r?\n|\r|\n/
 
 type TLineDigest = {
@@ -175,7 +172,7 @@ const parsers = {
   win: parseWinGrid
 }
 
-export const parse: TIngridParse = (input, {format = ISWIN ? 'win' : 'unix'}: TIngridParseOpts = {}) => {
+export const parse = (input: string, {format = 'unix'}: TIngridParseOpts = {}) => {
   const parser = parsers[format]
   if (!parser) throw new Error(`unsupported format: ${format}`)
 
