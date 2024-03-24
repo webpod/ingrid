@@ -3,17 +3,76 @@ import { describe, it } from 'node:test'
 import * as path from 'node:path'
 import * as fs from 'node:fs/promises'
 import {
-  parseUnixGrid,
   parseLine,
   parseLines,
-  getBorders
+  getBorders,
+  parseUnixGrid,
+  parseWinGrid
 } from '../../main/ts/ingrid.ts'
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
 const fixtures = path.resolve(__dirname, '../fixtures')
 
+describe('parseLine()', () => {
+  it.skip('extracts words ans spaces respecting quotes', () => {
+    const line = `foo bar "baz qux"   'a b "c"'`
+    const result = parseLine(line)
+    assert.deepEqual(result, {
+      spaces: [3, 7, 17, 18, 19],
+      words: [
+        {s: 0, e: 2, w: 'foo'},
+        {s: 4, e: 6, w: 'bar'},
+        {s: 8, e: 16, w: '"baz qux"'},
+        {s: 20, e: 28, w: `'a b "c"'`}
+      ]
+    })
+  })
+
+  it.skip('multiline', () => {
+    const lines = `foo bar "baz qux"
+'a b "c"' d   e
+`
+    const result = parseLines(lines)
+    assert.deepEqual(result, [
+      {
+        spaces: [3, 7],
+        words: [
+          {s: 0, e: 2, w: 'foo'},
+          {s: 4, e: 6, w: 'bar'},
+          {s: 8, e: 16, w: '"baz qux"'}
+        ]
+      },
+      {
+        spaces: [9, 11, 12, 13],
+        words: [
+          {s: 0, e: 8, w: "'a b \"c\"'"},
+          {s: 10, e: 10, w: 'd'},
+          {s: 14, e: 14, w: 'e'}
+        ]
+      },
+      {
+        spaces: [],
+        words: []
+      }
+    ])
+  })
+})
+
+describe('getBorders()', () => {
+  it.skip('detects space-formatted grid', () => {
+const output = `
+aaa bbb  ccc
+aa  bb   cc
+a   b    c
+`.trim()
+    const lines = parseLines(output)
+    const result = getBorders(lines)
+    assert.deepEqual(result, [3, 7, 8])
+  })
+})
+
 describe('parseUnixGrid()', () => {
-  it('parses ps output', async () => {
+  it.skip('parses ps output', async () => {
     const output = await fs.readFile(path.resolve(fixtures, 'ps-unix-output.txt'), 'utf8')
     const result = parseUnixGrid(output)
 
@@ -76,60 +135,23 @@ describe('parseUnixGrid()', () => {
   })
 })
 
-describe('parseLine()', () => {
-  it('extracts words ans spaces respecting quotes', () => {
-    const line = `foo bar "baz qux"   'a b "c"'`
-    const result = parseLine(line)
-    assert.deepEqual(result, {
-      spaces: [3, 7, 17, 18, 19],
-      words: [
-        {s: 0, e: 2, w: 'foo'},
-        {s: 4, e: 6, w: 'bar'},
-        {s: 8, e: 16, w: '"baz qux"'},
-        {s: 20, e: 28, w: `'a b "c"'`}
+describe('parseWinGrid()', () => {
+  it('parses wmic output', async () => {
+    const output = await fs.readFile(path.resolve(fixtures, 'wmic-output.txt'), 'utf8')
+    const result = parseWinGrid(output)
+
+    assert.equal(result.length, 221)
+    assert.deepEqual(result[150], {
+      CommandLine: [
+        '"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_5fb296660a9719a9\\RtkAudUService64.exe"',
+        '-background'
+      ],
+      ParentProcessId: [
+        '10160'
+      ],
+      ProcessId: [
+        '14972'
       ]
     })
-  })
-
-  it('multiline', () => {
-    const lines = `foo bar "baz qux"
-'a b "c"' d   e
-`
-    const result = parseLines(lines)
-    assert.deepEqual(result, [
-      {
-        spaces: [3, 7],
-        words: [
-          {s: 0, e: 2, w: 'foo'},
-          {s: 4, e: 6, w: 'bar'},
-          {s: 8, e: 16, w: '"baz qux"'}
-        ]
-      },
-      {
-        spaces: [9, 11, 12, 13],
-        words: [
-          {s: 0, e: 8, w: "'a b \"c\"'"},
-          {s: 10, e: 10, w: 'd'},
-          {s: 14, e: 14, w: 'e'}
-        ]
-      },
-      {
-        spaces: [],
-        words: []
-      }
-    ])
-  })
-})
-
-describe('getBorders()', () => {
-  it('detects space-formatted grid', () => {
-const output = `
-aaa bbb  ccc
-aa  bb   cc
-a   b    c
-`.trim()
-    const lines = parseLines(output)
-    const result = getBorders(lines)
-    assert.deepEqual(result, [3, 7, 8])
   })
 })

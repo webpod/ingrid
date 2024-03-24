@@ -8,9 +8,10 @@ There are so many tools for printing tables in the shell, but much less to parse
 import {parse} from '@webpod/ingrid'
 
 const output = `
-f o o
+foo bar baz
+1 2 3
 `
-const result = parse(output)
+const result = parse(output) // {foo: ['1'], bar: ['2'], baz: ['3']}
 ```
 
 ## License

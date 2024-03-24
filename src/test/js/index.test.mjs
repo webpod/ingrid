@@ -1,9 +1,9 @@
 import assert from 'node:assert'
 import { describe, it } from 'node:test'
-import { foo } from '@webpod/ingrid'
+import { parse } from '@webpod/ingrid'
 
-describe('mjs foo()', () => {
-  it('is callable', () => {
-    assert.equal(foo(), undefined)
+describe('esm index', () => {
+  it('has proper exports', () => {
+    assert.equal(typeof parse, 'function')
   })
 })

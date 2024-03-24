@@ -8,7 +8,7 @@ export type TIngridParseOpts = Partial<{
 
 export type TIngridParse = (input: string) => TIngridResponse
 
-const isWin = process.platform === 'win32'
+const ISWIN = process.platform === 'win32'
 const EOL = /\r?\n|\r|\n/
 
 type TLineDigest = {
@@ -127,14 +127,55 @@ const gridToData = (grid: string[][][]): TIngridResponse => {
   return data
 }
 
-export const parseWinGrid = (input: string): TIngridResponse => ([])
+const cut = (line: string, points: number[], pad = 2): string[] => {
+  const chunks: string[] = []
+  let s = 0
+  for (const i in [...points, Number.POSITIVE_INFINITY]) {
+    const chunk = line.slice(s, points[i])
+    chunks.push(chunk)
+    s = points[i] + pad
+  }
+
+  return chunks
+}
+
+export const parseWinGrid = (input: string): TIngridResponse => {
+  const lines = input.split(EOL)
+  const headers = lines[0].trim().split(/\s+/)
+  const data: TIngridResponse = []
+
+  let memo = null
+  for (const line of lines.slice(1)) {
+    if (!line) continue
+
+    const {spaces} = parseLine(line)
+    const borders = spaces.filter((s, i) => spaces[i + 1] === s + 1 && spaces[i + 2] !== s + 2)
+
+    let chunks = (borders.length > 0 ? cut(line, borders, 2) : [line]).map(l => l.trim())//.filter(Boolean)
+    if (chunks.length < headers.length) {
+      memo = chunks
+      continue
+    } else if (chunks[0]?.trim()) {
+      memo = null
+    } else {
+      chunks = [...(memo || ['<unknown>']), ...chunks].filter(Boolean)
+    }
+
+    const entry: TIngridResponse[number] = Object.fromEntries(headers.map((header, i) =>
+      [header, parseLine(chunks[i]).words.map(({w}) => w)]
+    ))
+    data.push(entry)
+  }
+
+  return data
+}
 
 const parsers = {
   unix: parseUnixGrid,
   win: parseWinGrid
 }
 
-export const parse: TIngridParse = (input, {format = isWin ? 'win' : 'unix'}: TIngridParseOpts = {}) => {
+export const parse: TIngridParse = (input, {format = ISWIN ? 'win' : 'unix'}: TIngridParseOpts = {}) => {
   const parser = parsers[format]
   if (!parser) throw new Error(`unsupported format: ${format}`)
 

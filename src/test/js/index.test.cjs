@@ -1,9 +1,9 @@
 const assert = require('node:assert')
 const { describe, it } = require('node:test')
-const { foo } = require('@webpod/ingrid')
+const { parse } = require('@webpod/ingrid')
 
-describe('cjs foo()', () => {
-  it('is callable', () => {
-    assert.equal(foo(), undefined)
+describe('cjs index', () => {
+  it('has proper exports', () => {
+    assert.equal(typeof parse, 'function')
   })
 })
