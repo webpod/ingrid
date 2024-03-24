@@ -1,0 +1,4 @@
+  UID   PID  PPID CPU PRI NI      VSZ    RSS WCHAN  STAT   TT       TIME COMMAND
+110274890   593     1   0   4  0  2526928  14752 -      S      ??    0:01.73 /usr/sbin/cfprefsd agent
+110274890   601     1   0  37  0  2542396   6204 -      S      ??    0:01.06 /usr/libexec/UserEventAgent (Aqua)
+110274890   612     1   0  37  0  2514516   2972 -      S      ??    0:00.80 /usr/sbin/distnoted agent
