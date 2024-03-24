@@ -1,0 +1,1607 @@
+CommandLine                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ParentProcessId  ProcessId
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0                0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0                4
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       4                204
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       4                236
+
+
+
+
+
+
+
+                                                          4                808
+
+
+
+
+
+
+
+                                                          1088             1104
+
+
+
+
+
+
+
+                                                          1188             1196
+
+
+
+
+
+
+
+                                                          1088             1220
+
+
+
+
+
+
+
+                                                          1188             1304
+
+
+
+
+
+
+
+                                                          1220             1324
+
+
+
+
+
+
+
+                                                          1220             1368
+
+
+
+
+
+
+
+                                                          1220             1380
+
+
+
+
+
+
+
+                                                          1324             1500
+
+
+
+
+
+
+
+                                                          1220             1528
+
+
+
+
+
+
+
+                                                          1304             1536
+
+
+
+
+
+
+
+                                                          1324             1632
+
+
+
+
+
+
+
+                                                          1324             1680
+
+
+
+
+
+
+
+                                                          1304             1740
+
+
+
+
+
+
+
+                                                          1324             1828
+
+
+
+
+
+
+
+                                                          1324             1892
+
+
+
+
+
+
+
+                                                          1324             1900
+
+
+
+
+
+
+
+                                                          1324             1908
+
+
+
+
+
+
+
+                                                          1324             1916
+
+
+
+
+
+
+
+                                                          1324             2028
+
+
+
+
+
+
+
+                                                          1324             2036
+
+
+
+
+
+
+
+                                                          1324             852
+
+
+
+
+
+
+
+                                                          1324             1648
+
+
+
+
+
+
+
+                                                          1324             2112
+
+
+
+
+
+
+
+                                                          1324             2136
+
+
+
+
+
+
+
+                                                          1324             2228
+
+
+
+
+
+
+
+                                                          1324             2312
+
+
+
+
+
+
+
+                                                          1324             2344
+
+
+
+
+
+
+
+                                                          1324             2436
+
+
+
+
+
+
+
+                                                          1324             2476
+
+
+
+
+
+
+
+                                                          1324             2500
+
+
+
+
+
+
+
+                                                          1324             2532
+
+
+
+
+
+
+
+                                                          1324             2556
+
+
+
+
+
+
+
+                                                          1324             2652
+
+
+
+
+
+
+
+                                                          1324             2660
+
+
+
+
+
+
+
+                                                          1324             2668
+
+
+
+
+
+
+
+                                                          1324             2744
+
+
+
+
+
+
+
+                                                          2500             2852
+
+
+
+
+
+
+
+                                                          1324             2876
+
+
+
+
+
+
+
+                                                          1324             2900
+
+
+
+
+
+
+
+                                                          1324             2908
+
+
+
+
+
+
+
+                                                          4                2968
+
+
+
+
+
+
+
+                                                          1324             2952
+
+
+
+
+
+
+
+                                                          1324             3196
+
+
+
+
+
+
+
+                                                          1324             3312
+
+
+
+
+
+
+
+                                                          1324             3352
+
+
+
+
+
+
+
+                                                          1324             3616
+
+
+
+
+
+
+
+                                                          1324             3640
+
+
+
+
+
+
+
+                                                          1324             3816
+
+
+
+
+
+
+
+                                                          1324             3868
+
+
+
+
+
+
+
+                                                          1324             3876
+
+
+
+
+
+
+
+                                                          1324             3980
+
+
+
+
+
+
+
+                                                          1324             4024
+
+
+
+
+
+
+
+                                                          1324             4084
+
+
+
+
+
+
+
+                                                          1324             4112
+
+
+
+
+
+
+
+                                                          1500             4512
+
+
+
+
+
+
+
+                                                          1324             5076
+
+
+
+
+
+
+
+                                                          1324             5104
+
+
+
+
+
+
+
+                                                          1324             5112
+
+
+
+
+
+
+
+                                                          1324             3392
+
+
+
+
+
+
+
+                                                          1324             3400
+
+
+
+
+
+
+
+                                                          1324             4936
+
+
+
+
+
+
+
+                                                          1324             5060
+
+
+
+
+
+
+
+                                                          1324             5232
+
+
+
+
+
+
+
+                                                          1324             5248
+
+
+
+
+
+
+
+                                                          1324             5264
+
+
+
+
+
+
+
+                                                          1324             5296
+
+
+
+
+
+
+
+                                                          1324             5304
+
+
+
+
+
+
+
+                                                          1324             5312
+
+
+
+
+
+
+
+                                                          1324             5336
+
+
+
+
+
+
+
+                                                          1324             5424
+
+
+
+
+
+
+
+                                                          1324             5444
+
+
+
+
+
+
+
+                                                          1324             5452
+
+
+
+
+
+
+
+                                                          1324             5460
+
+
+
+
+
+
+
+                                                          1324             5468
+
+
+
+
+
+
+
+                                                          1324             5476
+
+
+
+
+
+
+
+                                                          1324             5484
+
+
+
+
+
+
+
+                                                          1324             5500
+
+
+
+
+
+
+
+                                                          1324             5508
+
+
+
+
+
+
+
+                                                          1324             5548
+
+
+
+
+
+
+
+                                                          1324             5568
+
+
+
+
+
+
+
+                                                          1324             5624
+
+
+
+
+
+
+
+                                                          1324             5664
+
+
+
+
+
+
+
+                                                          1324             5704
+
+
+
+
+
+
+
+                                                          1324             5720
+
+
+
+
+
+
+
+                                                          1324             5820
+
+
+
+
+
+
+
+                                                          1324             5880
+
+
+
+
+
+
+
+                                                          5508             7052
+
+
+
+
+
+
+
+                                                          5264             7932
+
+
+
+
+
+
+
+                                                          1500             8116
+
+
+
+
+
+
+
+                                                          1500             7316
+
+
+
+
+
+
+
+                                                          1324             6620
+
+
+
+
+
+
+
+                                                          1500             7976
+
+
+
+
+
+
+
+                                                          1500             7804
+
+
+
+
+
+
+
+                                                          2344             7656
+"C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe" -f "C:\ProgramData\NVIDIA\NvContainerUser%dSPUser.log" -d "C:\Program Files\NVIDIA Corporation\NvContainer\plugins\SPUser" -r -l 3 -p 30000 -st "C:\Program Files\NVIDIA Corporation\NvContainer\NvContainerTelemetryApi.dll" -c
+
+
+
+
+
+                                                          5508             1480
+"C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe" -f "C:\ProgramData\NVIDIA\NvContainerUser%d.log" -d "C:\Program Files\NVIDIA Corporation\NvContainer\plugins\User" -r -l 3 -p 30000 -st "C:\Program Files\NVIDIA Corporation\NvContainer\NvContainerTelemetryApi.dll" -c
+
+
+
+
+
+                                                          5508             7776
+sihost.exe
+
+
+
+
+
+
+                                                          2312             4384
+C:\Windows\system32\svchost.exe -k BthAppGroup -p -s BluetoothUserService
+
+
+
+
+
+
+                                                          1324             8208
+C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc
+
+
+
+
+
+
+                                                          1324             8216
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s webthreatdefusersvc
+
+
+
+
+
+
+                                                          1324             8280
+C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService
+
+
+
+
+
+
+                                                          1324             8304
+taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+
+
+
+
+
+
+                                                          2952             8352
+
+
+
+
+
+
+
+                                                          2952             8648
+
+
+
+
+
+
+
+                                                          2952             8668
+
+
+
+
+
+
+
+                                                          1324             8940
+
+
+
+
+
+
+
+                                                          5484             3268
+
+
+
+
+
+
+
+                                                          3268             3272
+
+
+
+
+
+
+
+                                                          1324             9276
+"C:\Windows\system32\VSHelper.exe"
+
+
+
+
+
+
+                                                          5452             9320
+
+
+
+
+
+
+
+                                                          1324             9648
+
+
+
+
+
+
+
+                                                          1500             9760
+C:\Windows\Explorer.EXE
+
+
+
+
+
+
+                                                          10060            10160
+
+
+
+
+
+
+
+                                                          2952             6728
+
+
+
+
+
+
+
+                                                          1324             6764
+
+
+
+
+
+
+
+                                                          1324             9660
+C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc
+
+
+
+
+
+
+                                                          1324             5136
+
+
+
+
+
+
+
+                                                          1324             7380
+
+
+
+
+
+
+
+                                                          5508             8588
+"C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe"
+
+
+
+
+
+
+                                                          1480             10928
+"C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe" -ServerName:CortanaUI.AppXstmwaab17q5s3y22tp6apqz7a45vwv65.mca
+
+
+
+
+
+
+                                                          1500             10528
+"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca
+
+
+
+
+
+                                                          1500             11120
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             11192
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             1724
+C:\Windows\system32\svchost.exe -k UdkSvcGroup -s UdkUserSvc
+
+
+
+
+
+
+                                                          1324             11456
+C:\Windows\system32\DllHost.exe /Processid:{973D20D7-562D-44B9-B70B-5A0F49CCDF3F}
+
+
+
+
+
+
+                                                          1500             11692
+"C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe" --type=gpu-process --field-trial-handle=2096,14408186619172806793,8165948430544678607,131072 --disable-features=VizDisplayCompositor --no-sandbox --log-file="C:\Users\Maksim-pc\AppData\Local\NVIDIA Corporation\NVIDIA Share\debug.log" --lang=en-US --gpu-preferences=KAAAAAAAAACACwAAAQAAAAAAAAAAAGAAAAAAAAEAAAAIAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAQAAAAUAAAAQAAAAAAAAAAEAAAAGAAAA --log-file="C:\Users\Maksim-pc\AppData\Local\NVIDIA Corporation\NVIDIA Share\debug.log" --service-request-channel-token=6549447615181117085 --mojo-platform-channel-handle=2212 /prefetch:2
+
+
+                                                          10928            7288
+
+
+
+
+
+
+
+                                                          5076             12568
+"C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe" -ServerName:WindowsDefaultLockScreen.AppX7y4nbzq37zn4ks9k7amqjywdat7d3j2z.mca
+
+
+
+
+
+
+                                                          1500             12980
+"C:\Program Files (x86)\Razer\Synapse3\Service\..\UserProcess\Razer Synapse Service Process.exe"
+
+
+
+
+
+
+                                                          6620             13044
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             12292
+"C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe" index.js
+
+
+
+
+
+
+                                                          13304            12440
+\??\C:\Windows\system32\conhost.exe 0x4
+
+
+
+
+
+
+                                                          12440            10532
+C:\Windows\system32\svchost.exe -k LocalService -p -s NPSMSvc
+
+
+
+
+
+
+                                                          1324             12608
+"C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe" --type=renderer --no-sandbox --autoplay-policy=no-user-gesture-required --log-file="C:\Users\Maksim-pc\AppData\Local\NVIDIA Corporation\NVIDIA Share\debug.log" --field-trial-handle=2096,14408186619172806793,8165948430544678607,131072 --disable-features=VizDisplayCompositor --service-pipe-token=18075838369214560148 --lang=en-US --log-file="C:\Users\Maksim-pc\AppData\Local\NVIDIA Corporation\NVIDIA Share\debug.log" --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=18075838369214560148 --renderer-client-id=3 --mojo-platform-channel-handle=2864 /prefetch:1
+
+
+                                                          10928            13824
+"C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_424.1301.310.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe" -ServerName:Microsoft.Windows.DashboardServer
+
+
+
+
+
+                                                          1500             13980
+"C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_424.1301.310.0_x64__cw5n1h2txyewy\Dashboard\widgetservice.exe" -RegisterProcessAsComServer -Embedding
+
+
+
+
+
+                                                          1500             8632
+
+
+
+
+
+
+
+                                                          1324             10460
+
+
+
+
+
+
+
+                                                          1324             12480
+"C:\Program Files\WindowsApps\Microsoft.YourPhone_1.24021.105.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe" -ComServer:Background -Embedding
+
+
+
+
+
+
+                                                          1500             15152
+
+
+
+
+
+
+
+                                                          1324             15296
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             14720
+"C:\Program Files (x86)\ASUS\ArmouryDevice\asus_framework.exe" --type=gpu-process --user-data-dir="C:\Users\Maksim-pc\AppData\Roaming\asus_framework" --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=1768 --field-trial-handle=1776,i,4389033048947443006,10344062478071017122,131072 --disable-features=SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:2
+
+
+
+                                                          6728             14788
+
+
+
+
+
+
+
+                                                          6728             14892
+"C:\Windows\System32\SecurityHealthSystray.exe"
+
+
+
+
+
+
+                                                          10160            15012
+
+
+
+
+
+
+
+                                                          1324             15008
+"C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_5fb296660a9719a9\RtkAudUService64.exe" -background
+
+
+
+
+
+
+                                                          10160            14972
+"C:\Program Files (x86)\Razer\Synapse3\WPFUI\Framework\Razer Synapse 3 Host\Razer Synapse 3.exe" /StartMinimized
+
+
+
+
+
+
+                                                          10160            972
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\Razer Central.exe" /Client
+
+
+
+
+
+
+                                                          5444             10944
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --log-severity=info --lang=en-US --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --cefsharpexitsub --log-file="C:\ProgramData\Razer\Razer Central\Logs\cef_Maksim-pc.log" --mojo-platform-channel-handle=2472 --field-trial-handle=2532,i,3510341378374671766,3591035883877643665,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:8 --host-process-id=10944
+
+
+
+                                                          10944            14104
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe" --type=gpu-process --no-sandbox --log-severity=info --lang=en-US --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --cefsharpexitsub --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=disabled --log-file="C:\ProgramData\Razer\Razer Central\Logs\cef_Maksim-pc.log" --mojo-platform-channel-handle=3168 --field-trial-handle=2532,i,3510341378374671766,3591035883877643665,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:2 --host-process-id=10944
+
+
+                                                          10944            14824
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --log-severity=info --lang=en-US --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --cefsharpexitsub --log-file="C:\ProgramData\Razer\Razer Central\Logs\cef_Maksim-pc.log" --mojo-platform-channel-handle=5280 --field-trial-handle=2532,i,3510341378374671766,3591035883877643665,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:8 --host-process-id=10944
+
+
+
+                                                          10944            1880
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe" --type=renderer --log-severity=info --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --cefsharpexitsub --first-renderer-process --no-sandbox --log-file="C:\ProgramData\Razer\Razer Central\Logs\cef_Maksim-pc.log" --disable-gpu-compositing --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1710927870288092 --launch-time-ticks=79056356 --mojo-platform-channel-handle=5588 --field-trial-handle=2532,i,3510341378374671766,3591035883877643665,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns --host-process-id=10944 /prefetch:1
+
+
+                                                          10944            2372
+"C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe" --type=renderer --log-severity=info --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --cefsharpexitsub --no-sandbox --log-file="C:\ProgramData\Razer\Razer Central\Logs\cef_Maksim-pc.log" --disable-gpu-compositing --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1710927870288092 --launch-time-ticks=79058327 --mojo-platform-channel-handle=5600 --field-trial-handle=2532,i,3510341378374671766,3591035883877643665,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns --host-process-id=10944 /prefetch:1
+
+
+                                                          10944            2376
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --restore-last-session --restart
+
+
+
+
+
+
+                                                          10160            15048
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Maksim-pc\AppData\Local\Google\Chrome\User Data" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Maksim-pc\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Maksim-pc\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=122.0.6261.129 --initial-client-data=0x17c,0x180,0x184,0x158,0x188,0x7ffec3fadc40,0x7ffec3fadc4c,0x7ffec3fadc58
+
+
+
+                                                          15048            7756
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=gpu-process --no-appcompat-clear --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=1824 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:2
+
+
+
+
+                                                          15048            16340
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandbox-type=none --no-appcompat-clear --mojo-platform-channel-handle=1512 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:3
+
+
+
+
+                                                          15048            15696
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=ru --service-sandbox-type=service --no-appcompat-clear --mojo-platform-channel-handle=2280 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:8
+
+
+
+
+                                                          15048            16476
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=110064477 --mojo-platform-channel-handle=2964 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            16304
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=110067096 --mojo-platform-channel-handle=3116 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:2
+
+
+
+                                                          15048            15600
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=110084496 --mojo-platform-channel-handle=3492 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:2
+
+
+
+                                                          15048            15388
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=36 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=110487813 --mojo-platform-channel-handle=4352 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            15224
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=70 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=110766546 --mojo-platform-channel-handle=5076 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            16172
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=74 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=111153469 --mojo-platform-channel-handle=4336 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            6216
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=22 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=112661497 --mojo-platform-channel-handle=5432 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            16772
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=20 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=112665420 --mojo-platform-channel-handle=5912 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            16732
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=68 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=112669273 --mojo-platform-channel-handle=6064 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            12080
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=76 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=112858831 --mojo-platform-channel-handle=5884 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            17036
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=78 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=113528985 --mojo-platform-channel-handle=6860 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            17124
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=ru --service-sandbox-type=audio --no-appcompat-clear --mojo-platform-channel-handle=7816 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:8
+
+
+
+
+                                                          15048            13016
+
+
+
+
+
+
+
+                                                          1324             15308
+
+
+
+
+
+
+
+                                                          1324             12328
+
+
+
+
+
+
+
+                                                          1324             14676
+
+
+
+
+
+
+
+                                                          1324             7984
+C:\Windows\system32\svchost.exe -k UnistackSvcGroup
+
+
+
+
+
+
+                                                          1324             17212
+"C:\Windows\ImmersiveControlPanel\SystemSettings.exe" -ServerName:microsoft.windows.immersivecontrolpanel
+
+
+
+
+
+
+                                                          1500             4268
+C:\Windows\system32\ApplicationFrameHost.exe -Embedding
+
+
+
+
+
+
+                                                          1500             15672
+
+
+
+
+
+
+
+                                                          1324             3376
+C:\Windows\system32\svchost.exe -k DevicesFlow -s DevicesFlowUserSvc
+
+
+
+
+
+
+                                                          1324             7248
+
+
+
+
+
+
+
+                                                          1324             15704
+"C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca
+
+
+
+
+
+
+                                                          1500             7720
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             16020
+"C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_424.1301.310.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe" -ServerName:Microsoft.Windows.DashboardServer
+
+
+
+
+
+                                                          1500             16592
+"C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe" -ServerName:Microsoft.ZuneVideo.AppX758ya5sqdjd98rx6z7g95nw6jy7bqx9y.mca
+
+
+
+
+
+                                                          1500             280
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             13816
+
+
+
+
+
+
+
+                                                          1324             1776
+
+
+
+
+
+
+
+                                                          1324             5432
+
+
+
+
+
+
+
+                                                          1324             6600
+"C:\Program Files (x86)\Steam\steam.exe"
+
+
+
+
+
+
+                                                          10160            16640
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" "-lang=ru_RU" "-cachedir=C:\Users\Maksim-pc\AppData\Local\Steam\htmlcache" "-steampid=16640" "-buildid=1709846872" "-steamid=0" "-logdir=C:\Program Files (x86)\Steam\logs" "-uimode=7" "-startcount=0" "-steamuniverse=Public" "-realm=Global" "-clientui=C:\Program Files (x86)\Steam\clientui" "-steampath=C:\Program Files (x86)\Steam\steam.exe" "-launcher=0" --enable-smooth-scrolling --enable-direct-write "--log-file=C:\Program Files (x86)\Steam\logs\cef_log.txt" --disable-quick-menu "--disable-features=DcheckIsFatal"
+
+
+
+                                                          16640            16928
+
+
+
+
+
+
+
+                                                          1324             1340
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=crashpad-handler /prefetch:7 --max-uploads=5 --max-db-size=20 --max-db-age=5 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Program Files (x86)\Steam\dumps" "--metrics-dir=C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --url=https://crash.steampowered.com/submit --annotation=platform=win64 --annotation=product=cefwebhelper --annotation=version=1709846872 --initial-client-data=0x3a0,0x3a4,0x3a8,0x37c,0x3ac,0x7ffeef07ee28,0x7ffeef07ee38,0x7ffeef07ee48
+
+
+
+                                                          16928            15956
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=gpu-process --user-agent-product="Valve Steam Client" --lang=ru-RU --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --mojo-platform-channel-handle=1736 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:2
+
+
+                                                          16928            11788
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandbox-type=none --user-agent-product="Valve Steam Client" --lang=ru-RU --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --mojo-platform-channel-handle=2264 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:8
+
+
+
+                                                          16928            15860
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=ru --service-sandbox-type=service --user-agent-product="Valve Steam Client" --lang=ru-RU --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --mojo-platform-channel-handle=2540 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:8
+
+
+
+                                                          16928            5640
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=renderer --user-agent-product="Valve Steam Client" --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --first-renderer-process --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1710927870288880 --launch-time-ticks=16167959654 --mojo-platform-channel-handle=2980 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:1
+
+
+                                                          16928            5788
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=renderer --user-agent-product="Valve Steam Client" --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1710927870288880 --launch-time-ticks=16172589919 --mojo-platform-channel-handle=4180 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:1
+
+
+                                                          16928            9368
+"C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=ru --service-sandbox-type=audio --user-agent-product="Valve Steam Client" --lang=ru-RU --user-data-dir="C:\Users\Maksim-pc\AppData\Local\CEF\User Data" --buildid=1709846872 --steamid=0 --log-file="C:\Program Files (x86)\Steam\logs\cef_log.txt" --mojo-platform-channel-handle=4608 --field-trial-handle=1772,i,16101765455340276707,10795770180630967885,131072 --disable-features=BackForwardCache,DcheckIsFatal,WinUseBrowserSpellChecker /prefetch:8
+
+
+
+                                                          16928            17644
+"C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\..\..\..\Portal\Binaries\Win64\EpicGamesLauncher.exe"
+
+
+
+
+
+
+                                                          1080             14020
+"C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/Win64/EpicWebHelper.exe" --type=gpu-process --field-trial-handle=3372,5315324506237846927,1398354355145696950,131072 --disable-features=CalculateNativeWinOcclusion --no-sandbox --locales-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales" --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --log-severity=warning --resources-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources" --user-agent-product="EpicGamesLauncher/16.1.1-31987683+++Portal+Release-Live UnrealEngine/4.27.0-31987683+++Portal+Release-Live Chrome/90.0.4430.212" --lang=ru --gpu-preferences=SAAAAAAAAADgACAwAAAAAAAAAAAAAAAAAABgAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAAAAAAAHgAAAAAAAAAKAAAAAQAAAAgAAAAAAAAACgAAAAAAAAAMAAAAAAAAAA4AAAAAAAAABAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAYAAAAIAAAAAAAAAAgAAAAAAAAA --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --mojo-platform-channel-handle=3404 /prefetch:2  14020            18256
+"C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/Win64/EpicWebHelper.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=3372,5315324506237846927,1398354355145696950,131072 --disable-features=CalculateNativeWinOcclusion --lang=ru --service-sandbox-type=none --no-sandbox --locales-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales" --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --log-severity=warning --resources-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources" --user-agent-product="EpicGamesLauncher/16.1.1-31987683+++Portal+Release-Live UnrealEngine/4.27.0-31987683+++Portal+Release-Live Chrome/90.0.4430.212" --lang=ru --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --mojo-platform-channel-handle=4332 /prefetch:8
+                                                          14020            13352
+"C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/Win64/EpicWebHelper.exe" --type=renderer --no-sandbox --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --field-trial-handle=3372,5315324506237846927,1398354355145696950,131072 --disable-features=CalculateNativeWinOcclusion --lang=ru --locales-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales" --log-file=C:/Users/Maksim-pc/AppData/Local/EpicGamesLauncher/Saved/Logs/cef3.log --log-severity=warning --resources-dir-path="C:/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/ThirdParty/CEF3/Win64/Resources" --user-agent-product="EpicGamesLauncher/16.1.1-31987683+++Portal+Release-Live UnrealEngine/4.27.0-31987683+++Portal+Release-Live Chrome/90.0.4430.212" --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=4960 /prefetch:1
+                                                          14020            18124
+
+
+
+
+
+
+
+                                                          1324             11812
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=314 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=21057250018 --mojo-platform-channel-handle=5580 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            17384
+
+
+
+
+
+
+
+                                                          1324             3576
+
+
+
+
+
+
+
+                                                          1500             5140
+
+
+
+
+
+
+
+                                                          3616             9664
+C:\Windows\System32\smartscreen.exe -Embedding
+
+
+
+
+
+
+                                                          1500             15944
+"C:\Users\Maksim-pc\AppData\Roaming\Telegram Desktop\Telegram.exe"
+
+
+
+
+
+
+                                                          10160            7340
+"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.19.10573.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe" -Embedding
+
+
+
+
+
+
+                                                          1500             7548
+C:\Windows\System32\RuntimeBroker.exe -Embedding
+
+
+
+
+
+
+                                                          1500             18360
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=315 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=21357185406 --mojo-platform-channel-handle=9220 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:2
+
+
+
+                                                          15048            9728
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --no-appcompat-clear --lang=ru --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=316 --time-ticks-at-unix-epoch=-1710927870288588 --launch-time-ticks=21357257873 --mojo-platform-channel-handle=7760 --field-trial-handle=1828,i,11606523671653160170,12631292198218869289,262144 --variations-seed-version=20240319-180049.094000 /prefetch:1
+
+
+
+                                                          15048            3680
+"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.19.10573.0_x64__8wekyb3d8bbwe\OpenConsole.exe" --headless --resizeQuirk --width 155 --height 47 --signal 0xfb8 --server 0xde4
+
+
+
+
+
+                                                          7548             18108
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+
+
+
+
+
+                                                          7548             1400
+"C:\Windows\System32\Wbem\WMIC.exe" process get ProcessId,ParentProcessId,CommandLine
+
+
+
+
+
+
+                                                          1400             17424
+
+PS C:\Users\kitty>
