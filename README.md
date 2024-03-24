@@ -2,7 +2,7 @@
 > A shell-printed tables parser
 
 ## Usage
-There are so many tools for printing tables in the shell, but much less for parse them back.
+There are so many tools for printing tables in the shell, but much less to parse them back.
 
 ```ts
 import {parse} from '@webpod/ingrid'

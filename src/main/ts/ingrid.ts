@@ -1,6 +1,6 @@
 import process from 'node:process'
 
-export type TIngridResponse = Record<string, any>[]
+export type TIngridResponse = Record<string, string[]>[]
 
 export type TIngridParseOpts = Partial<{
   format: 'unix' | 'win'
@@ -16,7 +16,8 @@ type TLineDigest = {
   words: {s: number, e: number, w: string}[]
 }
 
-export const parseLine = <T>(line: string, sep = ' '): TLineDigest => {
+// eslint-disable-next-line sonarjs/cognitive-complexity
+export const parseLine = (line: string, sep = ' '): TLineDigest => {
   const result: TLineDigest = {
     spaces: [],
     words: []
@@ -74,6 +75,7 @@ export const getBorders = (lines: TLineDigest[]): number[] =>
     return m
   }, [])
 
+// eslint-disable-next-line sonarjs/cognitive-complexity
 export const parseUnixGrid = (input: string): TIngridResponse => {
   const lines = parseLines(input)
   const borders = getBorders(lines)
@@ -96,16 +98,23 @@ export const parseUnixGrid = (input: string): TIngridResponse => {
     }
   }
 
+  return gridToData(grid)
+}
+
+// eslint-disable-next-line sonarjs/cognitive-complexity
+const gridToData = (grid: string[][][]): TIngridResponse => {
   const data: TIngridResponse = []
   const [headers, ...body] = grid
+
   for (const row of body) {
-    const entry: Record<string, any> = {}
+    const entry: TIngridResponse[number] = {}
     data.push(entry)
+
     for (const i in headers) {
       const keys = headers[i]
       if (keys.length === 0) continue
       if (keys.length > row[i].length) {
-        throw new Error('!!!!')
+        throw new Error('Malformed grid: row has more columns than headers')
       }
       for (const k in keys) {
         const key = keys[k]
@@ -131,4 +140,3 @@ export const parse: TIngridParse = (input, {format = isWin ? 'win' : 'unix'}: TI
 
   return parser(input)
 }
-
