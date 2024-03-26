@@ -1,2 +1,2 @@
-export type * from './ingrid.ts'
-export { parse } from './ingrid.ts'
+export type * from './ingrid.js'
+export { parse } from './ingrid.js'
