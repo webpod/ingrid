@@ -1,6 +1,6 @@
 import * as assert from 'node:assert'
 import { describe, it } from 'node:test'
-import * as path from 'node:path'
+import path from 'node:path'
 import * as fs from 'node:fs/promises'
 import {
   parseLine,
