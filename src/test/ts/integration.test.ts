@@ -1,4 +1,5 @@
 import process from 'node:process'
+import { EOL } from 'node:os'
 // import * as assert from 'node:assert'
 import cp from 'node:child_process'
 import { describe, it } from 'node:test'
@@ -7,9 +8,10 @@ import { describe, it } from 'node:test'
 
 const IS_WIN = process.platform === 'win32'
 
+
 describe('integration', () => {
   IS_WIN && it('parse wmic output', () => {
-    const input = 'wmic process get ProcessId,ParentProcessId,CommandLine'
+    const input = `wmic process get ProcessId,ParentProcessId,CommandLine ${EOL}`
     const cmd = 'cmd'
 
     const res = cp.execSync(cmd, {
