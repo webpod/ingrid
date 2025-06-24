@@ -103,5 +103,10 @@ jobs:
         with:
           name: build
 
-      - name: Run tests
+      - name: Run all tests
+        if: matrix.os == 'ubuntu-latest' && matrix.node-version == 24
         run: npm run test
+
+      - name: Run integration tests
+        if: matrix.os != 'ubuntu-latest' || matrix.node-version != 24
+        run: npm run test:integration

@@ -15,6 +15,10 @@ type TLineDigest = {
 
 // eslint-disable-next-line sonarjs/cognitive-complexity
 export const parseLine = (line: string, sep = ' '): TLineDigest => {
+  if (typeof line !== 'string') {
+    console.error('wtf?', line)
+    throw new Error('parseLine: line must be a string')
+  }
   const result: TLineDigest = {
     spaces: [],
     words: []
@@ -159,7 +163,7 @@ export const parseWinGrid = (input: string): TIngridResponse => {
     }
 
     const entry: TIngridResponse[number] = Object.fromEntries(headers.map((header, i) =>
-      [header, parseLine(chunks[i]).words.map(({w}) => w)]
+      [header, parseLine(chunks[i] || '').words.map(({w}) => w)]
     ))
     data.push(entry)
   }
