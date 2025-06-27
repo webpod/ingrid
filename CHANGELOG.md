@@ -1,3 +1,8 @@
+## [1.0.1](https://github.com/webpod/ingrid/compare/v1.0.0...v1.0.1) (2025-06-27)
+
+### Fixes & improvements
+* fix: rm debug log (#5) ([591c2d5](https://github.com/webpod/ingrid/commit/591c2d54d172e634bd81ea576e45992a248b744b))
+
 ## [1.0.0](https://github.com/webpod/ingrid/compare/undefined...v1.0.0) (2025-06-27)
 
 ### Fixes & improvements
@@ -7,5 +12,3 @@
 
 ### Features
 * feat: export `parseLine` helper ([9a4de9d](https://github.com/webpod/ingrid/commit/9a4de9d01b433601ac6a22dab7db31f5ca8cc73f))
-
-
