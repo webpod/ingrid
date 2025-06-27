@@ -15,10 +15,8 @@ type TLineDigest = {
 
 // eslint-disable-next-line sonarjs/cognitive-complexity
 export const parseLine = (line: string, sep = ' '): TLineDigest => {
-  if (typeof line !== 'string') {
-    console.error('wtf?', line)
-    throw new Error('parseLine: line must be a string')
-  }
+  if (typeof line !== 'string') throw new Error('parseLine: line must be a string')
+
   const result: TLineDigest = {
     spaces: [],
     words: []
