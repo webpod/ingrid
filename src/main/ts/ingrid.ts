@@ -7,6 +7,7 @@ export type TIngridParseOpts = Partial<{
 export type TIngridParse = (input: string) => TIngridResponse
 
 const EOL = /\r?\n|\r|\n/
+const EMPTY = '-'
 
 type TLineDigest = {
   spaces: number[],
@@ -61,7 +62,7 @@ export const parseLine = (line: string, sep = ' '): TLineDigest => {
 }
 
 export const parseLines = (input: string, sep?: string): TLineDigest[] =>
-  input.split(EOL).map(l => parseLine(l, sep))
+  input.split(EOL).filter(Boolean).map(l => parseLine(l, sep))
 
 const countWordsByIndex = ({words}: TLineDigest, index: number): number => words.filter(({e}) => e < index).length
 
@@ -126,45 +127,74 @@ const gridToData = (grid: string[][][]): TIngridResponse => {
   return data
 }
 
-const cut = (line: string, points: number[], pad = 2): string[] => {
-  const chunks: string[] = []
-  let s = 0
-  for (const i in [...points, Number.POSITIVE_INFINITY]) {
-    const chunk = line.slice(s, points[i])
-    chunks.push(chunk)
-    s = points[i] + pad
+// eslint-disable-next-line sonarjs/cognitive-complexity
+export const parseWinGrid = (input: string): TIngridResponse => {
+  const _lines = input.split(/\r?\n/)
+  const lines = _lines.filter(Boolean)
+  const headline = lines.shift()!
+  const headers = headline.split(/\s+/)
+  const ll = lines[0].length
+  const hl = headers.length
+
+  if (lines.every(l => l.length === ll)) {
+    const spaces = Array
+      .from({ length: ll })
+      .map((_, i) =>
+        lines.every(l => l[i] === ' ')
+      )
+    const borders = spaces
+      .reduce<number[]>((m, v, i, a) => {
+        if ( v && !a[i - 1]) m.push(i)
+        return m
+      }, [0])
+    const data: TIngridResponse = []
+
+    for (const line of lines) {
+      const props: [string, [string]][] = []
+      for (const i in headers) {
+        const k = headers[i]
+        const s = borders[i]
+        const e = borders[+i + 1] || ll
+        const v = line.slice(s, e).trim()
+        props.push([k, [v || EMPTY]])
+      }
+      data.push(Object.fromEntries(props))
+    }
+    return data
   }
 
-  return chunks
-}
-
-export const parseWinGrid = (input: string): TIngridResponse => {
-  const lines = input.split(EOL)
-  const headers = lines[0].trim().split(/\s+/)
+  let w = ''
+  let p
+  const body = input.slice(headline.length)
+  const vals: string[] = []
   const data: TIngridResponse = []
 
-  let memo = null
-  for (const line of lines.slice(1)) {
-    if (!line) continue
+  const cap = (v?: string) => {
+    const _v = w.trim() || (vals.length === 0 ? v : w.trim())
+    if (!_v) return
 
-    const {spaces} = parseLine(line)
-    const borders = spaces.filter((s, i) => spaces[i + 1] === s + 1 && spaces[i + 2] !== s + 2)
-
-    let chunks = (borders.length > 0 ? cut(line, borders, 2) : [line]).map(l => l.trim())//.filter(Boolean)
-    if (chunks.length < headers.length) {
-      memo = chunks
-      continue
-    } else if (chunks[0]?.trim()) {
-      memo = null
-    } else {
-      chunks = [...(memo || ['<unknown>']), ...chunks].filter(Boolean)
+    vals.push(_v)
+    if (vals.length === hl) {
+      data.push(Object.fromEntries(headers.map((h, i) => [h, [vals[i]]])))
+      vals.length = 0
     }
-
-    const entry: TIngridResponse[number] = Object.fromEntries(headers.map((header, i) =>
-      [header, parseLine(chunks[i] || '').words.map(({w}) => w)]
-    ))
-    data.push(entry)
+    w = ''
   }
+
+  for (const c of body) {
+    w += c
+    if (c === ' ') {
+      if (p === '\n') {
+        cap(EMPTY)
+      } else if (p === ' ') {
+        cap()
+      }
+    } else if (c === '\n') {
+      cap()
+    }
+    p = c
+  }
+  cap()
 
   return data
 }

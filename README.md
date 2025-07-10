@@ -9,7 +9,7 @@ import { parse } from '@webpod/ingrid'
 
 const table = `
 foo bar baz
-1 2 3
+1   2   3
 `
 const result = parse(table.trim())
 // {foo: ['1'], bar: ['2'], baz: ['3']}
@@ -36,7 +36,7 @@ const result = parse(table.trim(), {format: 'win'})
  [
    { foo: ['1'], bar: ['2'], baz: ['3'] },
    { foo: ['a'], bar: ['b'], baz: ['c'] },
-   { foo: ['a'], bar: ['d'], baz: ['e'] }
+   { foo: ['d'], bar: ['e'], baz: ['-'] }
  ]
  */
 ```
