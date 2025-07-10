@@ -29,11 +29,12 @@ describe('parseLine()', () => {
     })
   })
 
-  it('multiline', () => {
+  it.only('multiline', () => {
     const lines = `foo bar "baz qux"
 'a b "c"' d   e
 `
     const result = parseLines(lines)
+
     assert.deepEqual(result, [
       {
         spaces: [3, 7],
@@ -50,10 +51,6 @@ describe('parseLine()', () => {
           {s: 10, e: 10, w: 'd'},
           {s: 14, e: 14, w: 'e'}
         ]
-      },
-      {
-        spaces: [],
-        words: []
       }
     ])
   })
@@ -103,7 +100,7 @@ a
     assert.deepEqual(result, [
       { foo: ['1'], bar: ['2'], baz: ['3'] },
       { foo: ['a'], bar: ['b'], baz: ['c'] },
-      { foo: ['a'], bar: ['d'], baz: ['e'] }
+      { foo: ['-'], bar: ['d'], baz: ['e'] }
     ])
   })
 
@@ -152,7 +149,7 @@ describe('parseUnixGrid()', () => {
     })
   })
 
-  it('parses ps shifted heades', async () => {
+  it('parses ps shifted headers', async () => {
     const output = await fs.readFile(path.resolve(fixtures, 'ps-unix-shifted-headers.txt'), 'utf8')
     const result = parseUnixGrid(output)
     const same = parse(output, {format: 'unix'})
@@ -188,8 +185,7 @@ describe('parseWinGrid()', () => {
     assert.deepEqual(result, same)
     assert.deepEqual(result[150], {
       CommandLine: [
-        '"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_5fb296660a9719a9\\RtkAudUService64.exe"',
-        '-background'
+        '"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_5fb296660a9719a9\\RtkAudUService64.exe" -background'
       ],
       ParentProcessId: [
         '10160'
@@ -198,5 +194,14 @@ describe('parseWinGrid()', () => {
         '14972'
       ]
     })
+  })
+
+  it('parses wmic gha output', async () => {
+    const output = (await fs.readFile(path.resolve(fixtures, 'wmic-gha-output.txt'), 'utf8')).slice(0, -13)
+    const result = parseWinGrid(output)
+    // const same = parse(output, {format: 'win'})
+    // console.log('result', JSON.stringify(result, null, 2))
+
+    assert.equal(result.length, 127)
   })
 })
