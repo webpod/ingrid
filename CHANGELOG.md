@@ -1,3 +1,8 @@
+## [1.0.2](https://github.com/webpod/ingrid/compare/v1.0.1...v1.0.2) (2025-07-10)
+
+### Fixes & improvements
+* fix: handle wmic mixed formatting (#6) ([29f9d06](https://github.com/webpod/ingrid/commit/29f9d06727efbcfc21b46376ca4c676032cd3b61))
+
 ## [1.0.1](https://github.com/webpod/ingrid/compare/v1.0.0...v1.0.1) (2025-06-27)
 
 ### Fixes & improvements
