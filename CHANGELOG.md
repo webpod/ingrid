@@ -1,3 +1,8 @@
+## [1.1.1](https://github.com/webpod/ingrid/compare/v1.1.0...v1.1.1) (2025-07-11)
+
+### Fixes & improvements
+* fix: enhance headers parser (#10) ([b0808b3](https://github.com/webpod/ingrid/commit/b0808b3ad992b3a54bc1d8a81c92d91995926294))
+
 ## [1.1.0](https://github.com/webpod/ingrid/compare/v1.0.4...v1.1.0) (2025-07-11)
 
 ### Features
