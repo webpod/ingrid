@@ -130,10 +130,9 @@ const gridToData = (grid: string[][][]): TIngridResponse => {
 
 // eslint-disable-next-line sonarjs/cognitive-complexity
 export const parseWinGrid = (input: string, debug = false): TIngridResponse => {
-  const _lines = input.split(/\r*\n+/)
-  const lines = _lines.filter(Boolean)
+  const lines = input.split(/\r*\n+/).filter(Boolean)
   const headline = lines.shift()!
-  const headers = headline.split(/\s+/)//.map
+  const headers = headline.trim().split(/\s\s+/)
   const hl = headers.length
   const ll = headline.length
 
