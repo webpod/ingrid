@@ -8,7 +8,6 @@ export type TIngridParse = (input: string) => TIngridResponse
 
 const EOL = /\r?\n|\r|\n/
 const EMPTY = '-'
-const LL = 80
 
 type TLineDigest = {
   spaces: number[],
@@ -128,8 +127,6 @@ const gridToData = (grid: string[][][]): TIngridResponse => {
   return data
 }
 
-const roundUp = (l: number) => Math.ceil(l / LL) * LL
-
 // eslint-disable-next-line sonarjs/cognitive-complexity
 export const parseWinGrid = (input: string): TIngridResponse => {
   const _lines = input.split(/\r?\n/)
@@ -137,11 +134,11 @@ export const parseWinGrid = (input: string): TIngridResponse => {
   const headline = lines.shift()!
   const headers = headline.split(/\s+/)
   const hl = headers.length
-  const limit = roundUp(lines[0].length)
+  const ll = headline.length
 
-  if (lines.every(l => roundUp(l.length) === limit)) {
+  if (lines.every(l => ll / l.length < 2)) {
     const spaces = Array
-      .from({ length: limit })
+      .from({ length: ll })
       .map((_, i) =>
         lines.every(l => l[i] === ' ')
       )
@@ -157,7 +154,7 @@ export const parseWinGrid = (input: string): TIngridResponse => {
       for (const i in headers) {
         const k = headers[i]
         const s = borders[i]
-        const e = borders[+i + 1] || limit
+        const e = borders[+i + 1] || ll
         const v = line.slice(s, e).trim()
         props.push([k, [v || EMPTY]])
       }
