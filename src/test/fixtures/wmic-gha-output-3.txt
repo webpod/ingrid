@@ -1,0 +1,254 @@
+CommandLine                                                                                                                                                           ParentProcessId  ProcessId
+
+                                                                                                                                                                      0                0
+
+                                                                                                                                                                      0                4
+
+                                                                                                                                                                      4                72
+
+                                                                                                                                                                      4                124
+
+                                                                                                                                                                      4                480
+
+                                                                                                                                                                      632              648
+
+                                                                                                                                                                      632              720
+
+                                                                                                                                                                      720              864
+
+C:\Windows\system32\lsass.exe                                                                                                                                         720              872
+
+C:\Windows\system32\svchost.exe -k DcomLaunch -p                                                                                                                      864              1000
+
+"fontdrvhost.exe"                                                                                                                                                     720              436
+
+C:\Windows\system32\svchost.exe -k RPCSS -p                                                                                                                           864              604
+
+C:\Windows\system32\svchost.exe -k DcomLaunch -p -s LSM                                                                                                               864              896
+
+C:\Windows\System32\svchost.exe -k termsvcs -s TermService                                                                                                            864              1120
+
+C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService                                                                                      864              1264
+
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s HvHost                                                                                          864              1324
+
+C:\Windows\system32\svchost.exe -k ICService -p -s vmicheartbeat                                                                                                      864              1372
+
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s vmickvpexchange                                                                                 864              1380
+
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s vmicshutdown                                                                                    864              1388
+
+C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts                                                                                        864              1420
+
+C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog                                                                                       864              1428
+
+C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s vmictimesync                                                                                   864              1444
+
+C:\Windows\system32\svchost.exe -k LocalService -p -s nsi                                                                                                             864              1636
+
+C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp                                                                                           864              1676
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc                                                                                                                864              1700
+
+C:\Windows\System32\svchost.exe -k NetworkService -p -s NlaSvc                                                                                                        864              1764
+
+C:\Windows\system32\svchost.exe -k NetworkService -p -s Dnscache                                                                                                      864              1776
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule                                                                                                             864              1804
+
+C:\Windows\System32\svchost.exe -k LocalService -p -s netprofm                                                                                                        864              1928
+
+C:\Windows\system32\svchost.exe -k NetSvcs -p -s hns                                                                                                                  864              2012
+
+C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc                                                                                  864              2020
+
+C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s WinHttpAutoProxySvc                                                                            864              2068
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s Winmgmt                                                                                                              864              2080
+
+C:\Windows\system32\vmms.exe                                                                                                                                          864              2232
+
+C:\Windows\system32\svchost.exe -k NetSvcs -s nvagent                                                                                                                 864              2272
+
+C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s UmRdpService                                                                                    864              2356
+
+C:\Windows\system32\svchost.exe -k netsvcs -s CertPropSvc                                                                                                             864              2520
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s ProfSvc                                                                                                              864              2540
+
+C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p                                                                                                           864              2576
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s UserManager                                                                                                          864              2632
+
+C:\Windows\System32\svchost.exe -k NetworkService -p -s LanmanWorkstation                                                                                             864              2640
+
+C:\Windows\System32\svchost.exe -k netsvcs -p -s Themes                                                                                                               864              2736
+
+C:\Windows\system32\svchost.exe -k LocalService -p -s EventSystem                                                                                                     864              2744
+
+C:\Windows\System32\svchost.exe -k netsvcs -p -s SessionEnv                                                                                                           864              2776
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s SENS                                                                                                                 864              2848
+
+C:\Windows\system32\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc                                                                                            864              2896
+
+C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p                                                                                                   864              2940
+
+C:\Windows\System32\svchost.exe -k netsvcs -p -s ShellHWDetection                                                                                                     864              3000
+
+C:\Windows\system32\svchost.exe -k LocalService -p -s FontCache                                                                                                       864              2200
+
+C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p                                                                                                   864              2620
+
+C:\Windows\System32\spoolsv.exe                                                                                                                                       864              3224
+
+C:\Windows\system32\svchost.exe -k NetworkService -p -s CryptSvc                                                                                                      864              3288
+
+C:\Windows\System32\svchost.exe -k NetSvcs -p -s iphlpsvc                                                                                                             864              3296
+
+C:\Windows\system32\svchost.exe -k iissvcs                                                                                                                            864              3320
+
+C:\Windows\system32\svchost.exe -k apphost -s AppHostSvc                                                                                                              864              3328
+
+C:\Windows\System32\svchost.exe -k netsvcs -p -s sacsvr                                                                                                               864              3388
+
+C:\WindowsAzure\GuestAgent_2.7.41491.1149_2025-07-01_100628\WaAppAgent.exe                                                                                            864              3424
+
+C:\Windows\system32\svchost.exe -k appmodel -p -s StateRepository                                                                                                     864              3432
+
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe                                                                                                         864              3444
+
+C:\Windows\system32\svchost.exe -k LocalService -s W32Time                                                                                                            864              3504
+
+C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks                                                                                          864              3512
+
+C:\Windows\system32\mqsvc.exe                                                                                                                                         864              3532
+
+"C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe"                                                                                                       864              3540
+
+C:\Windows\system32\dockerd.exe --run-service --service-name docker                                                                                                   864              3568
+
+C:\Windows\System32\svchost.exe -k NetworkService -p -s WinRM                                                                                                         864              3576
+
+C:\WindowsAzure\GuestAgent_2.7.41491.1149_2025-07-01_100628\WindowsAzureGuestAgent.exe                                                                                864              3584
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s WpnService                                                                                                           864              3600
+
+                                                                                                                                                                      864              3688
+
+C:\Windows\System32\svchost.exe -k smbsvcs -s LanmanServer                                                                                                            864              3720
+
+"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe" -NetMsmqActivator                                                                                     864              4324
+
+C:\Windows\system32\vmcompute.exe                                                                                                                                     864              4512
+
+taskhostw.exe GAEvents|$(Arg0)                                                                                                                                        1804             5084
+
+C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p -s pla                                                                                                    864              4976
+
+C:\Windows\system32\wbem\wmiprvse.exe                                                                                                                                 1000             5708
+
+"C:\WindowsAzure\SecAgent\WaSecAgentProv.exe" -startPoll C:\WindowsAzure\Logs\ 168.63.129.16 5248000 3600000 21600000                                                 3424             5820
+
+\??\C:\Windows\system32\conhost.exe 0x4                                                                                                                               5820             5828
+
+                                                                                                                                                                      5872             5440
+
+winlogon.exe                                                                                                                                                          5872             6016
+
+"fontdrvhost.exe"                                                                                                                                                     6016             6072
+
+"dwm.exe"                                                                                                                                                             6016             5512
+
+C:\Windows\System32\vds.exe                                                                                                                                           864              1792
+
+C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService                                                                                                 864              6288
+
+sihost.exe                                                                                                                                                            2632             6304
+
+C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TabletInputService                                                                              864              6412
+
+"ctfmon.exe"                                                                                                                                                          6412             6460
+
+taskhostw.exe                                                                                                                                                         1804             6568
+
+C:\Windows\system32\svchost.exe -k appmodel -p -s camsvc                                                                                                              864              6648
+
+taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}                                                                                                                  1804             6724
+
+C:\Windows\Explorer.EXE                                                                                                                                               6788             6808
+
+C:\Windows\System32\svchost.exe -k AppReadiness -p -s AppReadiness                                                                                                    864              6912
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s TokenBroker                                                                                                          864              8
+
+C:\Windows\System32\svchost.exe -k LocalService -p -s LicenseManager                                                                                                  864              1408
+
+"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca  1000             7544
+
+"C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe" -ServerName:InputApp.AppXjd5de1g66v206tj52m9d0dtpppx4cgpn.mca                     1000             7584
+
+C:\Windows\System32\RuntimeBroker.exe -Embedding                                                                                                                      1000             7672
+
+"C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe" -ServerName:CortanaUI.AppX8z9r6jm96hw4bsbneegw0kyxx296wr9t.mca                           1000             7808
+
+C:\Windows\System32\RuntimeBroker.exe -Embedding                                                                                                                      1000             7848
+
+C:\Windows\System32\RuntimeBroker.exe -Embedding                                                                                                                      1000             5932
+
+"C:\Windows\AzureArcSetup\Systray\AzureArcSysTray.exe"                                                                                                                6808             1236
+
+"C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager\ServiceFabricLocalClusterManager.exe"                                          6808             1508
+
+"C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca                            1000             964
+
+C:\Windows\System32\RuntimeBroker.exe -Embedding                                                                                                                      1000             7196
+
+"C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent"                                                                                                       1804             5328
+
+\??\C:\Windows\system32\conhost.exe 0x4                                                                                                                               5328             5036
+
+C:\Users\RUNNER~1\AppData\Local\Temp\provjobd.exe816850000                                                                                                            5328             7384
+
+                                                                                                                                                                      864              5320
+
+C:\Windows\system32\svchost.exe -k netsvcs -p -s UsoSvc                                                                                                               864              1332
+
+C:\Windows\system32\svchost.exe -k LocalService -p -s CDPSvc                                                                                                          864              5652
+
+C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p -s DPS                                                                                                    864              7244
+
+C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost                                                                                   864              6120
+
+C:\Windows\System32\msdtc.exe                                                                                                                                         864              6076
+
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s UALSVC                                                                                          864              2872
+
+C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc                                                                                                    864              3460
+
+C:\actions-runner\cached\bin\Runner.Listener.exe run                                                                                                                  5328             6760
+
+"C:\actions-runner\cached\bin\Runner.Worker.exe" spawnclient 1808 1824                                                                                                6760             4256
+
+\??\C:\Windows\system32\conhost.exe 0x4                                                                                                                               4256             3792
+
+"C:\Program Files\PowerShell\7\pwsh.EXE" -command ". 'D:\a\_temp\ec1585b3-0ca7-428b-85dd-491fe08da597.ps1'"                                                           4256             2388
+
+C:\Windows\system32\cmd.exe /c ""C:\hostedtoolcache\windows\node\20.19.3\x64\npm.cmd" run test:legacy"                                                                2388             4860
+
+"C:\hostedtoolcache\windows\node\20.19.3\x64\\node.exe"  "C:\hostedtoolcache\windows\node\20.19.3\x64\\node_modules\npm\bin\npm-cli.js" run test:legacy               4860             5292
+
+C:\Windows\system32\cmd.exe /d /s /c node ./node_modules/mocha/bin/mocha -t 0 -R spec src/test/legacy/test.cjs                                                        5292             7036
+
+node  ./node_modules/mocha/bin/mocha -t 0 -R spec src/test/legacy/test.cjs                                                                                            7036             5740
+
+C:\Windows\system32\cmd.exe /d /s /c "wmic process get ProcessId,ParentProcessId,CommandLine"                                                                         5740             5312
+
+\??\C:\Windows\system32\conhost.exe 0x4                                                                                                                               5312             4528
+
+wmic  process get ProcessId,ParentProcessId,CommandLine                                                                                                               5312             7136
+
+C:\Windows\system32\wbem\wmiprvse.exe                                                                                                                                 1000             5736
+
+
+

@@ -2,6 +2,7 @@ export type TIngridResponse = Record<string, string[]>[]
 
 export type TIngridParseOpts = Partial<{
   format: 'unix' | 'win'
+  debug: boolean
 }>
 
 export type TIngridParse = (input: string) => TIngridResponse
@@ -128,13 +129,18 @@ const gridToData = (grid: string[][][]): TIngridResponse => {
 }
 
 // eslint-disable-next-line sonarjs/cognitive-complexity
-export const parseWinGrid = (input: string): TIngridResponse => {
-  const _lines = input.split(/\r?\n/)
+export const parseWinGrid = (input: string, debug = false): TIngridResponse => {
+  const _lines = input.split(/\r*\n+/)
   const lines = _lines.filter(Boolean)
   const headline = lines.shift()!
-  const headers = headline.split(/\s+/)
+  const headers = headline.split(/\s+/)//.map
   const hl = headers.length
   const ll = headline.length
+
+  if (debug) {
+    console.log('Headers:', headers)
+    console.log('Line lengths:', lines.map(l => l.length))
+  }
 
   if (lines.every(l => ll / l.length < 2)) {
     const spaces = Array
@@ -148,6 +154,8 @@ export const parseWinGrid = (input: string): TIngridResponse => {
         return m
       }, [0])
     const data: TIngridResponse = []
+
+    debug && console.log('Borders:', borders)
 
     for (const line of lines) {
       const props: [string, [string]][] = []
@@ -204,9 +212,9 @@ const parsers = {
   win: parseWinGrid
 }
 
-export const parse = (input: string, {format = 'unix'}: TIngridParseOpts = {}) => {
+export const parse = (input: string, {format = 'unix', debug = false}: TIngridParseOpts = {}) => {
   const parser = parsers[format]
   if (!parser) throw new Error(`unsupported format: ${format}`)
 
-  return parser(input)
+  return parser(input, debug)
 }
