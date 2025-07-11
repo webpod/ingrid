@@ -1,3 +1,8 @@
+## [1.0.4](https://github.com/webpod/ingrid/compare/v1.0.3...v1.0.4) (2025-07-11)
+
+### Fixes & improvements
+* fix: fix line homogeneity condition (#8) ([d367e1b](https://github.com/webpod/ingrid/commit/d367e1b83a101e5a26eb81b1fff717ee5b7eb871))
+
 ## [1.0.3](https://github.com/webpod/ingrid/compare/v1.0.2...v1.0.3) (2025-07-11)
 
 ### Fixes & improvements
