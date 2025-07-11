@@ -199,9 +199,16 @@ describe('parseWinGrid()', () => {
   it('parses wmic gha output', async () => {
     const output = (await fs.readFile(path.resolve(fixtures, 'wmic-gha-output.txt'), 'utf8')).slice(0, -13)
     const result = parseWinGrid(output)
-    // const same = parse(output, {format: 'win'})
     // console.log('result', JSON.stringify(result, null, 2))
 
     assert.equal(result.length, 127)
+  })
+
+  it('parses wmic gha output-2', async () => {
+    const output = (await fs.readFile(path.resolve(fixtures, 'wmic-gha-output-2.txt'), 'utf8'))
+    const result = parseWinGrid(output)
+    // console.log('result', JSON.stringify(result, null, 2))
+
+    assert.equal(result.length, 132)
   })
 })
