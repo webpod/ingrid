@@ -1,3 +1,8 @@
+## [1.1.0](https://github.com/webpod/ingrid/compare/v1.0.4...v1.1.0) (2025-07-11)
+
+### Features
+* feat: add basic debugger (#9) ([999e306](https://github.com/webpod/ingrid/commit/999e306d32a36eeca441fc93ac1a9f426e6c2fa7))
+
 ## [1.0.4](https://github.com/webpod/ingrid/compare/v1.0.3...v1.0.4) (2025-07-11)
 
 ### Fixes & improvements
